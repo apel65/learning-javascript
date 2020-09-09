@@ -19,6 +19,20 @@ var result = myFind(arr, function(value){
     return value == 4;
 })
 
-console.log(result);
+// console.log(result);
+
+
+
+const webDeveloper = [
+    {name: 'Jhankar Mahbub', id: 4565, years: 6, salery: 65000},
+    {name: 'Apel Mahmud', id: 4560, years: 6, salery: 50000},
+    {name: 'Arham Apel', id: 4453, years: 2, salery: 45000},
+    {name: 'Sojib Prodhan', id: 9840, years: 5, salery: 30000 },
+    {name: 'Nasim', id: 8730, years: 4, salery: 20000}
+]
+
+
+const experinceYears = webDeveloper.find(developer => developer.years > 2);
+console.log(experinceYears)
 
 

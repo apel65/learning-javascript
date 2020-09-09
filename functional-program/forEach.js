@@ -14,7 +14,7 @@ function forEach(arr, cb){
 }
 
 forEach(arr, function(value, index, arr){
-    console.log(value, index, arr)
+    // console.log(value, index, arr)
 });
 
 forEach(arr, function(value, index, arr){
@@ -22,4 +22,5 @@ forEach(arr, function(value, index, arr){
 })
 
 console.log(arr)
+
 
